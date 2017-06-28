@@ -327,7 +327,7 @@ export class Data {
 
     getData() {
         return this.storage.get('todos');  
- 	}
+    }
 
     save(data){
         let newData = JSON.stringify(data);
