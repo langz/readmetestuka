@@ -92,7 +92,7 @@ To view the app in Mobile-view in Chrome: ```F12``` ```CTRL+SHIFT+M``` ```Select
     </button>
 </ion-buttons>
 ```
-11. Replace the <ion-content padding> tag and its contents with the following to-dos container:
+11. Replace the ```<ion-content padding>```-tag and its contents with the following to-dos container:
 ```html
 <ion-content>
     <ion-list>
@@ -177,7 +177,7 @@ import { AddItemPage } from '../pages/add-item/add-item';
 title;
 description;
 ```
-6. In the same file, rename the class name (name appearing after “export class” to “AddItemPage”
+6. In the same file, rename the class name (name appearing after “export class” to ```AddItemPage```
 7. Replace the import statement "import { IonicPage, NavController, NavParams } from 'ionic-angular';" with:
 ```ts
 import { NavController, ViewController } from 'ionic-angular';
@@ -203,7 +203,7 @@ close(){
 }
 ```
 11. Remove “@IonicPage()” annotation.
-12. Open the file “src/pages/home/home.ts”. ```CTRL+P``` ```home.ts```
+12. Open the file “src/pages/home/home.ts”. ```CTRL+P``` then ```home.ts```
 13. Replace its content with the following (we are now replacing the dummy data with logic for adding data dynamically):
 ```ts
 import { Component } from '@angular/core';
@@ -211,8 +211,8 @@ import { ModalController, NavController } from 'ionic-angular';
 import { AddItemPage } from '../add-item/add-item'
  
 @Component({
-  		selector: 'page-home',
-  		templateUrl: 'home.html'
+    selector: 'page-home',
+    templateUrl: 'home.html'
 })
 export class HomePage {
  
@@ -241,8 +241,9 @@ export class HomePage {
   	viewItem(item){
   	}
 }
-14. Tip: change app color by modifying hexadecimal color variables in the file “variables.scss”. Default variable is “secondary”.
 ```
+14. Tip: change app color by modifying hexadecimal color variables in the file “variables.scss”. Default variable is “secondary”.
+
 ### Step 3: Viewing items
 
 We want to be able to click on an item in the list and see its description. This is what we are going to implement next.
