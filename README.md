@@ -293,7 +293,7 @@ this.description = this.navParams.get('item').description;
 9. Open the file “home.ts” and add the following to the function body of “viewItem()”:
 ```ts
 this.navCtrl.push(ItemDetailPage, {
-    		item: item
+    item: item
 });
 ```
 10. In the same file, add the following import statement: 
@@ -331,7 +331,7 @@ export class Data {
  
   	save(data){
    		let newData = JSON.stringify(data);
-    		this.storage.set('todos', newData);
+        this.storage.set('todos', newData);
   	}
 }
 ```
