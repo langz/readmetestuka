@@ -225,13 +225,13 @@ export class HomePage {
   	}
  
   	addItem(){
-    		let addModal = this.modalCtrl.create(AddItemPage);
+        let addModal = this.modalCtrl.create(AddItemPage);
    	 	addModal.onDidDismiss((item) => {
-          			if(item){
-           			this.saveItem(item);
-          			}
-    		});
-    		addModal.present();
+            if(item){
+                this.saveItem(item);
+            }
+        });
+        addModal.present();
   	}
  
   	saveItem(item){
@@ -263,19 +263,19 @@ import { ItemDetailPage } from '../pages/item-detail/item-detail';
 4. Open the file “item-detail.html” and replace its content with the following:
 ```html
 <ion-header>
-  		<ion-navbar color="secondary">
-    			<ion-title>
-      				{{title}}
-    			</ion-title>
-  		</ion-navbar>
+    <ion-navbar color="secondary">
+        <ion-title>
+            {{title}}
+        </ion-title>
+    </ion-navbar>
 </ion-header>
  
 <ion-content>
-  		<ion-card>
-    			<ion-card-content>
-      				{{description}}
-    			</ion-card-content>
-  		</ion-card>
+    <ion-card>
+        <ion-card-content>
+            {{description}}
+        </ion-card-content>
+    </ion-card>
 </ion-content>
 ```
 5. Open “item-detail.ts” and add the following fields above the constructor:
@@ -326,7 +326,7 @@ export class Data {
   	}
  
   	getData() {
-    		return this.storage.get('todos');  
+        return this.storage.get('todos');  
  	}
  
   	save(data){
