@@ -78,7 +78,7 @@ Install [Visual Studio Code](https://nodejs.org/en/) or your favorite IDE
 8. Start the application by running: ```ionic serve```. Do not terminate this process, let it run.
 This will open your default browser, if this is not Chrome, copy the URL and visit it in Chrome.
 To view the app in Mobile-view in Chrome: ```F12``` ```CTRL+SHIFT+M``` ```Select Iphone 6 as device```
-9. Go back to Visual Studio Code rename the page title in the <ion-title> tag to “My Simple ToDo App”:
+9. Go back to Visual Studio Code rename the page title in the ```<ion-title>```-tag to “My Simple ToDo App”:
 ```html
 <ion-title>
     My Simple ToDo App
