@@ -318,21 +318,21 @@ git stash && git checkout Step-three_Viewing-items
 ```ts
 import { Storage } from '@ionic/storage';
 import { Injectable } from '@angular/core';
- 
+
 @Injectable()
 export class Data {
- 
-  	constructor(public storage: Storage){
-  	}
- 
-  	getData() {
-            return this.storage.get('todos');  
+
+    constructor(public storage: Storage){
+    }
+
+    getData() {
+        return this.storage.get('todos');  
  	}
- 
+
     save(data){
-            let newData = JSON.stringify(data);
-            this.storage.set('todos', newData);
-  	}
+        let newData = JSON.stringify(data);
+        this.storage.set('todos', newData);
+    }
 }
 ```
 4. Open the file “app.module.ts” and add the following import statements:
