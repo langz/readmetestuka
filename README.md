@@ -21,21 +21,12 @@ Register at [Github](https://github.com/join):
 2. Plan: Unlimited public repositories for free.
 3. Click "skip this step".
 
-### Configure SSH-key
+### Clone the project
 
-After successfully registering, visit [Github](https://github.com):
-
-1. Click your avatar at the top right.
-2. Select “Settings”.
-3. At the left hand side, click “SSH and GPG keys”.
-4. Click “New SSH key”.
-5. Type “ionic-workshop-key” as title.
-6. Add the following key: ```ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDUoGnoNf6EZzyRKtuvzFy0R9hk3Ffdj/6EQKIOvp0/+9Xa6QM7F3e6Fm/i8rX1cE+jJlHu2pmoTTGrJt5kkbkIni95un5Yc5L46LgZF0XCbLofe1Op1jr1mUseQKXFZAFNaqI89BvC1VFtf8b+sUp669Oqkr0cFqbf9TOpZQYGz+U3L37nYabcsjKc6A1LCGBRQLPXsrIrgNpCfDTRkS/2K8GzrZd4Y04es04qzV5LEjs2Hlw0GKwcouCDoX7purT8KKpgBb7w+Bl+rGPVQAdyizkZqivbNrOqg6Zde6mVYPgSjYRMb+IopGQ2R6WuaqDrAfZZ2FV0JCCVfYGa3ZWJ greger.siem.knudsen@CPX-F7KX1V54IV0```
-7. Press “Add SSH key”.
-8. Open cmd or git bash.
-9. Navigate to “C:\Users<your.accenture.id>\Desktop\Repos” or desired location.```cd Repos```
-10. Clone the repository by typing: ```git clone git@github.com:gregerKnudsen/ionic-workshop.git```
-11. Navigate to repository folder by typing the command:```cd ionic-workshop```
+1. Open cmd or git bash.
+2. Navigate to “C:\Users<your.accenture.id>\Desktop\Repos” or desired location.```cd Repos```
+3. Clone the repository by typing: ```git clone https://github.com/gregerKnudsen/ionic-workshop.git```
+4. Navigate to repository folder by typing the command:```cd ionic-workshop```
 
 ### Install Node
 
