@@ -92,7 +92,6 @@ To view the app in Mobile-view in Chrome: ```F12``` ```CTRL+SHIFT+M``` ```Select
     </button>
 </ion-buttons>
 ```
-And then watch magic happen in the browser!
 11. Replace the <ion-content padding> tag and its contents with the following to-dos container:
 ```html
 <ion-content>
