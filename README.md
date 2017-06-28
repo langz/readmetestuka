@@ -75,16 +75,16 @@ Install [Visual Studio Code](https://nodejs.org/en/) or your favorite IDE
 5. Select the folder named “ionic-todo” located in “C:\Users\<your.accenture.id\Desktop\repos\ionic-workshop”
 6. Open the file “src/pages/home/home.html”. Tip for opening file, inside VSCode press:```CTRL+P``` and write ```home.html``` 
 7. Open the command line again, and navigate to the folder ionic-todo: ```cd ionic-todo```
-8. Start the application by running: ```ionic serve```. Do not terminate this process, let it run :)
+8. Start the application by running: ```ionic serve```. Do not terminate this process, let it run.
 This will open your default browser, if this is not Chrome, copy the URL and visit it in Chrome.
 To view the app in Mobile-view in Chrome: ```F12``` ```CTRL+SHIFT+M``` ```Select Iphone 6 as device```
 9. Go back to Visual Studio Code rename the page title in the <ion-title> tag to “My Simple ToDo App”:
 ```html
 <ion-title>
-    Add To-do
+    My Simple ToDo App
 </ion-title>
 ```
-10. Add the following under the </ion-title> tag:
+10. Add the following under the ```</ion-title>```-tag:
 ```html
 <ion-buttons end>
     <button ion-button icon-only (click)="addItem()">
@@ -92,7 +92,7 @@ To view the app in Mobile-view in Chrome: ```F12``` ```CTRL+SHIFT+M``` ```Select
     </button>
 </ion-buttons>
 ```
-And then watch magic happen in the browser :)
+And then watch magic happen in the browser!
 11. Replace the <ion-content padding> tag and its contents with the following to-dos container:
 ```html
 <ion-content>
@@ -372,7 +372,7 @@ this.dataService.save(this.items);
 
 ### Step 5: Deploy to your own phone
 
-Now we would like to see the real application on our own phone :)
+Now we would like to see the real application on our own phone!
 
 Stash local changes and checkout branch Step-four_Saving-data-permanently-to-storage, run the following command in terminal:
 
